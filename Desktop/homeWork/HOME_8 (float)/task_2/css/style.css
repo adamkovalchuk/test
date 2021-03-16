@@ -1,0 +1,73 @@
+* {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.section-home {
+  height: 100vh;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* НЕ БАЧУ СЕНСУ ВИКОРИСТОВУВАТИ КАЛК І БУДЬ-ЯКІ ІНШІ КОМАНДИ В ДАНІЙ СИТУАЦІЇ
+ТАК, ЯК ФЛЕКСОМ ЦЕ РОБИТЬСЯ ЗА 2 СЕКУНДИ.
+ */
+
+.people-box {
+  width: calc(25% - 10px);
+  margin: 0;
+  float: left;
+  clear: both;
+  border: rgba(58, 57, 57, 0.733) 1px solid;
+  border-radius: 10px;
+}
+
+.img-people {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.name-style {
+  font-size: 17px;
+  margin: 8px 12px;
+}
+
+.join-styles {
+  margin: 8px 12px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.txt-styles {
+  margin: 8px 12px;
+  color: rgba(0, 0, 0, 0.822);
+  font-size: 15px;
+}
+
+.bottom-txt-and-line {
+  color: rgba(0, 0, 0, 0.466);
+  font-size: 20px;
+}
+
+.bottom-txt-and-line::before {
+  width: 100%;
+  content: "";
+  height: 1px;
+  background-color: #000000;
+  display: block;
+  margin-top: 12px;
+}
+
+.icon-style {
+  margin: 15px 2px 15px 12px;
+}
